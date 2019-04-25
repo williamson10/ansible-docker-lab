@@ -1,6 +1,3 @@
-
-
-
 data "docker_registry_image" "motioneye" {
   name = "ccrisan/motioneye:master-amd64"
 }
@@ -23,5 +20,4 @@ resource "docker_container" "motioneye" {
     container_path = "/etc/motioneye"
   }
   
- 
 }
