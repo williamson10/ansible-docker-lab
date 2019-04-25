@@ -1,0 +1,4 @@
+config.json
+terraform.tfstate
+terraform.tfstate.backup
+lock.json
